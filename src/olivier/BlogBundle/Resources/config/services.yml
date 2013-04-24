@@ -1,0 +1,7 @@
+parameters:
+#    olivier_blog.example.class: olivier\BlogBundle\Example
+
+services:
+#    olivier_blog.example:
+#        class: %olivier_blog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

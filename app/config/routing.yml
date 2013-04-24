@@ -1,0 +1,4 @@
+olivier_blog:
+    resource: "@olivierBlogBundle/Resources/config/routing.yml"
+    prefix:   /blog
+

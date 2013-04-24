@@ -1,0 +1,15 @@
+olivierblog_accueil:
+    pattern:    /
+    defaults:    {_controller: olivierBlogBundle:Blog:index }
+    
+olivierblog_voir:
+    pattern:    /article/{id}
+    defaults:    {_controller: olivierBlogBundle:Blog:voir }
+    requirements: 
+        id: \d+
+    
+olivierblog_ajouter:
+    pattern:    /ajouter
+    defaults:    {_controller: olivierBlogBundle:Blog:ajouter }
+    
+    
